@@ -11,6 +11,9 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_marlin.mk)
 
+# Inherit arm64 phone gapps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 -include device/google/marlin/marlin/device-aosip.mk
 
 ## Device identifier. This must come after all inclusions
