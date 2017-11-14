@@ -13,6 +13,12 @@ BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 # Hardware
 BOARD_USES_CYANOGEN_HARDWARE := true
 
+# SELinux
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/google/marlin/sepolicy-aosip/public
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/google/marlin/sepolicy-aosip/private
+
 # Sepolicy
 BOARD_SEPOLICY_DIRS += device/google/marlin/sepolicy/verizon
 
