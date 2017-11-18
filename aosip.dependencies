@@ -1,8 +1,8 @@
 [
   {
-    "repository": "CarbonROM/android_kernel_google_marlin",
+    "repository": "AOSiP-Devices/kernel_google_marlin",
     "target_path": "kernel/google/marlin",
-    "branch": "cr-6.0"
+    "branch": "oreo"
   },
   {
     "repository": "LineageOS/android_device_qcom_common",
