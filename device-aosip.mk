@@ -35,7 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Update engine
 PRODUCT_PACKAGES += brillo_update_payload
 
-GAPPS_VARIANT := full
-GAPPS_EXCLUDED_PACKAGES := EditorsDocs EditorsSheets EditorsSlides GoogleCamera PrebuiltNewsWeather Keep newswidget NewsstandStub
+GAPPS_VARIANT := nano
 GAPPS_FORCE_PACKAGE_OVERRIDES := true
+PRODUCT_PACKAGES += Chrome
 $(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
