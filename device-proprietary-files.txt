@@ -16,6 +16,14 @@ lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
 -priv-app/HotwordEnrollmentWCD9335/HotwordEnrollmentWCD9335.apk:priv-app/HotwordEnrollmentWCD9335/HotwordEnrollmentWCD9335.apk:PRESIGNED
 
 # IMS/HD Voice
+lib/lib-imsvideocodec.so
+lib/lib-imsvt.so
+lib/lib-imsvtextutils.so
+lib/lib-imsvtutils.so
+lib64/lib-imsvideocodec.so
+lib64/lib-imsvt.so
+lib64/lib-imsvtextutils.so
+lib64/lib-imsvtutils.so
 -priv-app/CNEService/CNEService.apk
 
 # Permissions
