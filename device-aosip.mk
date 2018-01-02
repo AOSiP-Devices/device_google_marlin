@@ -9,6 +9,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager
 
+# Lights
+PRODUCT_PROPERTY_OVERRIDES += ro.hardware.lights=marlin_sys
+
 # LiveDisplay native
 PRODUCT_PACKAGES += \
     libjni_livedisplay
