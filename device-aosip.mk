@@ -34,3 +34,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Update engine
 PRODUCT_PACKAGES += brillo_update_payload
+
+# GApps
+GAPPS_VARIANT := nano
+$(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
